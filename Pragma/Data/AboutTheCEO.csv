@@ -1,0 +1,8 @@
+Control Flow																						
+Exe	ID	PreID	URL	AcceptAll	element_AcceptAll	locatorType_AcceptAll	hoverclick	hoverclick_element	hoverclick_locator_type	drp_element	drp_locator_type	name_of_list	hover	hover_element	hover_locator_type	click	element_click	locatortype_click	validateText	element_validateText	locatortype_validateText	assert_value
+																						
+P	1	1	https://www.pragmaworld.net/	x	//button[@data-cky-tag='accept-button']	By.XPATH																
+P	2	1					x	/html/body/header/div[2]/nav/div/div[1]/ul[1]/li[1]/a	By.XPATH	f"(//li[normalize-space()='{name_of_list}'])[1]"	By.XPATH	Leadership										
+P	3	1											x	(//a[normalize-space()='More about the CEO'])[1]	By.XPATH	x	(//a[normalize-space()='More about the CEO'])[1]	x				
+P	4	1																	x	(//div[@class='post-date'])[1]	By.XPATH	July 23, 2015
+END																						
